@@ -70,7 +70,7 @@ class Phone{
  */
 echo "~~~~~~~~对象适配器模式~~~~~~~";
 $phone = new Phone();
-$phone->charging(new VoltageAdapter());
+$phone->charging(new VoltageAdapter(new Voltage220V));
 
 
 
