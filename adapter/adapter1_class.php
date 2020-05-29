@@ -1,27 +1,27 @@
 <?php
 /**
- * ÀàÊÊÅäÆ÷
- * Ó¦ÓÃÊµÀýËµÃ÷
- * ÒÔÉú»îÖÐ³äµçÆ÷µÄÀý×ÓÀ´½²½âÊÊÅäÆ÷£¬ÊÖ»úµÄ³äµçÆ÷±¾Éí¾ÍÏàµ±ÓÚÊÊÅäÆ÷£¬
- * ²å¿ÚµçÑ¹Ô­ÏÈÊÇ220V£¬ÎÒÃÇÍ¨¹ý³äµçÆ÷£¨ÊÊÅäÆ÷£©°ÑµçÑ¹×ª±äÎª5V,È»ºó¸øÊÖ»ú³äµç
+ * ç±»é€‚é…å™¨
+ * åº”ç”¨å®žä¾‹è¯´æ˜Ž
+ * ä»¥ç”Ÿæ´»ä¸­å……ç”µå™¨çš„ä¾‹å­æ¥è®²è§£é€‚é…å™¨ï¼Œæ‰‹æœºçš„å……ç”µå™¨æœ¬èº«å°±ç›¸å½“äºŽé€‚é…å™¨ï¼Œ
+ * æ’å£ç”µåŽ‹åŽŸå…ˆæ˜¯220Vï¼Œæˆ‘ä»¬é€šè¿‡å……ç”µå™¨ï¼ˆé€‚é…å™¨ï¼‰æŠŠç”µåŽ‹è½¬å˜ä¸º5V,ç„¶åŽç»™æ‰‹æœºå……ç”µ
  */
 
 /**
- * ±»ÊÊÅäÀà£¨²å¿Ú£©
+ * è¢«é€‚é…ç±»ï¼ˆæ’å£ï¼‰
  * Class Voltage220V
  */
 class Voltage220V{
 
-    //Êä³ö220VµçÑ¹
+    //è¾“å‡º220Vç”µåŽ‹
     public function output220V(){
         $srcV = 220;
-        echo "Ô­µçÑ¹ = ".$srcV."·ü".PHP_EOL;;
+        echo "åŽŸç”µåŽ‹ = ".$srcV."ä¼".PHP_EOL;;
         return $srcV;
     }
 }
 
 /**
- * ÊÊÅäÆ÷½Ó¿Ú
+ * é€‚é…å™¨æŽ¥å£
  * Interface Voltage5V
  */
 interface Voltage5V{
@@ -29,7 +29,7 @@ interface Voltage5V{
 }
 
 /**
- * ÊÊÅäÀà
+ * é€‚é…ç±»
  * Class VoltageAdapter
  */
 class VoltageAdapter extends Voltage220V implements Voltage5V {
@@ -37,29 +37,29 @@ class VoltageAdapter extends Voltage220V implements Voltage5V {
     {
         $srcV = $this->output220V();
         $dstV = $srcV/44;
-        return $dstV;   //Êä³ö5VµçÑ¹
+        return $dstV;   //è¾“å‡º5Vç”µåŽ‹
     }
 }
 
 /**
- * ÊÖ»úÀà
+ * æ‰‹æœºç±»
  * Class Phone
  */
 class Phone{
-    //³äµç
+    //å……ç”µ
     public function charging(Voltage5V $voltage5V){
         if($voltage5V->output5V() == 5){
-            echo 'µçÑ¹Îª5V,¿ÉÒÔ³äµç~ '.PHP_EOL;
+            echo 'ç”µåŽ‹ä¸º5V,å¯ä»¥å……ç”µ~ '.PHP_EOL;
         } else if($voltage5V->output5V() > 5){
-            echo 'µçÑ¹´óÓÚ5V,²»¿ÉÒÔ³äµç~ '.PHP_EOL;
+            echo 'ç”µåŽ‹å¤§äºŽ5V,ä¸å¯ä»¥å……ç”µ~ '.PHP_EOL;
         }
     }
 }
 
 /**
- * ¿Í»§¶Ë¿ªÊ¼Ê¹ÓÃ
+ * å®¢æˆ·ç«¯å¼€å§‹ä½¿ç”¨
  */
-echo "~~~~~~~~¶ÔÏóÊÊÅäÆ÷Ä£Ê½~~~~~~~";
+echo "~~~~~~~~å¯¹è±¡é€‚é…å™¨æ¨¡å¼~~~~~~~";
 $phone = new Phone();
 $phone->charging(new VoltageAdapter());
 
