@@ -53,17 +53,17 @@ class upRightPhone extends Phone {
     }
 
     public function open(){
-        echo '自立手机'.PHP_EOL;
+        echo '直立手机'.PHP_EOL;
         $this->brand->open();
     }
 
     public function call(){
-        echo '自立手机'.PHP_EOL;
+        echo '直立手机'.PHP_EOL;
         $this->brand->open();
     }
 
     public function close(){
-        echo '自立手机'.PHP_EOL;
+        echo '直立手机'.PHP_EOL;
         $this->brand->open();
     }
 
