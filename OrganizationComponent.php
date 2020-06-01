@@ -45,6 +45,7 @@ abstract class OrganizationComponent
  */
 class College extends OrganizationComponent{
 
+
     //数组中存放Department
     public $OrganizationComponents = [];
 
