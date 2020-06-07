@@ -2,89 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f4f984-5e17-4532-8b7d-f2e4cd92bc50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PHP-designMode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrganizationComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/OrganizationComponent.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adapter/adapter1_class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#6#112#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="$PROJECT_DIR$/adapter/adapter1_class.php" />
+        <option value="gitskills &lt;33684196+haierbrother@users.noreply.github.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="75" />
-    <option name="width" value="1595" />
-    <option name="height" value="715" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PHP-designMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-designMode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP-designMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-designMode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1clNQb78uIcYpALhRB3spU9gHiE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -99,51 +61,82 @@
       <option name="presentableId" value="Default" />
       <updated>1590549285468</updated>
       <workItem from="1590549286664" duration="2264000" />
+      <workItem from="1591099209492" duration="1952000" />
+      <workItem from="1591360060742" duration="2786000" />
+      <workItem from="1591522438533" duration="5599000" />
     </task>
+    <task id="LOCAL-00001" summary="更新组合模式">
+      <created>1591021863709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591021863709</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新组合模式">
+      <created>1591022023391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591022023391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2264000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/adapter/adapter1_class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新组合模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新组合模式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="160" key="#Inspections" timestamp="1591524161974">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="440" y="160" key="#Inspections/0.23.1680.944@0.23.1680.944" timestamp="1591524161974" />
+    <state x="541" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591007636377">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="541" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.944@0.23.1680.944" timestamp="1591007636376" />
+    <state x="423" y="96" key="CommitChangelistDialog2" timestamp="1591022023248">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="423" y="96" key="CommitChangelistDialog2/0.23.1680.944@0.23.1680.944" timestamp="1591022023248" />
+    <state x="168" y="107" key="MergeDialog" timestamp="1591022006649">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="168" y="107" key="MergeDialog/0.23.1680.944@0.23.1680.944" timestamp="1591022006649" />
+    <state x="551" y="218" key="MultipleFileMergeDialog" timestamp="1591022006709">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="551" y="218" key="MultipleFileMergeDialog/0.23.1680.944@0.23.1680.944" timestamp="1591022006709" />
+    <state x="638" y="318" key="NewPhpClassDialog" timestamp="1591522602208">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="638" y="318" key="NewPhpClassDialog/0.23.1680.944@0.23.1680.944" timestamp="1591522602208" />
+    <state x="658" y="425" key="NewPhpFileDialog" timestamp="1591535816395">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="658" y="425" key="NewPhpFileDialog/0.23.1680.944@0.23.1680.944" timestamp="1591535816395" />
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1591022025940">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.23.1680.944@0.23.1680.944" timestamp="1591022025940" />
+    <state x="517" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1591522557339">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="517" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.944@0.23.1680.944" timestamp="1591522557339" />
+    <state x="623" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591360065472">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="623" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.944@0.23.1680.944" timestamp="1591360065472" />
+    <state x="505" y="227" width="670" height="675" key="run.anything.popup" timestamp="1591021164058">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="505" y="227" width="670" height="675" key="run.anything.popup/0.23.1680.944@0.23.1680.944" timestamp="1591021164058" />
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1591536712920">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1591536712920" />
   </component>
 </project>
