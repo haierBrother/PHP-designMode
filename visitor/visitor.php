@@ -59,7 +59,7 @@ class ObjectStructure{
 
     //增加到list
     public function attach($p){
-        $person[] = $p;
+        $this->person[] = $p;
     }
 
     //移除
@@ -85,7 +85,6 @@ class Client{
 
         $objectStructure->attach(new Man());
         $objectStructure->attach(new Woman());
-
         //成功
         $success = new Success();
         $objectStructure->display($success);
